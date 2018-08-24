@@ -16,7 +16,13 @@
               padding: 10,
               indicators: true
           });
+          //autoplay();
       });
+
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 5000);
+      }
 
       $(document).ready(function(){
           $('.carousel-two').carousel({
@@ -29,6 +35,10 @@
 
       $(document).ready(function(){
           $('.materialboxed').materialbox();
+      });
+
+      $(document).ready(function(){
+          $('.modal').modal();
       });
 
   }); // end of document ready

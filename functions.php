@@ -118,3 +118,40 @@ function post_type_relations(){
     register_post_type('lancamentos',$args);
 }
 add_action('init','post_type_relations');
+
+
+function post_type_best(){
+    $labels = array(
+        'name' => "Top 10",
+        'singular_name' => "Top 10",
+        'add_new'=> "Adicionar Novo Top 10",
+        'add_new_label' => "Adicionar Novo Top 10",
+        'all_item' => "Todos os Top 10",
+        'add_new_item'=> "Adicionar Novo Top 10",
+        'edit_item' => "Editar Top 10",
+        'new_item' =>  "Novo Top 10",
+        'view_item' => "Visualizar Top 10",
+        'search_item' => "Procurar Top 10",
+        'not_found' => "Nenhum Top 10 Encontrado",
+        'not_found_in_trash' => "Nenhum Top 10 Na Lixeira"
+    );
+    $args = array(
+
+        'labels' => $labels,
+        'public' => true,
+        'has_archive' => true,
+        'publicly_queryable' => true,
+        'show_in_rest' => true,
+        'rest_base' => 'best',
+        'query_var' => true,
+        'rewrite' => true,
+        'capability_type' => 'post',
+        'supports' => array(
+            'title','editor','thumbnail','excerpt'
+        ),
+        'menu_position' => 5,
+        'exclude_from_search' => false
+    );
+    register_post_type('best',$args);
+}
+add_action('init','post_type_best');
