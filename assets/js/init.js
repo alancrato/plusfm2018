@@ -3,18 +3,11 @@
 
       $('.sidenav').sidenav();
 
-      $('.carousel-slider').carousel({
-          fullWidth: true,
-          indicators: true,
-          duration: 100
-      });
-
       $(document).ready(function(){
-          $('.carousel').carousel({
-              dist: -20,
-              shift: 40,
-              padding: 10,
-              indicators: true
+          $('.carousel-slider').carousel({
+              fullWidth: true,
+              indicators: true,
+              duration: 100
           });
           //autoplay();
       });

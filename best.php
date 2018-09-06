@@ -34,7 +34,7 @@
             $frameDow = '"></iframe>';
 
             if($id == '1'){
-                echo '<div class="col s12 m2">';
+                echo '<div class="col s12 m2 ajuste-mobile">';
                 echo '<div class="img-best">';
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal1']);
@@ -61,7 +61,7 @@
             }
 
             if($id == '2'){
-                echo '<div class="col s12 m2">';
+                echo '<div class="col s12 m2 ajuste-mobile">';
                 echo '<div class="img-best">';
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal2']);
@@ -88,7 +88,7 @@
             }
 
             if($id == '3'){
-                echo '<div class="col s12 m2">';
+                echo '<div class="col s12 m2 ajuste-mobile">';
                 echo '<div class="img-best">';
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal3']);
@@ -115,7 +115,7 @@
             }
 
             if($id == '4'){
-                echo '<div class="col s12 m2">';
+                echo '<div class="col s12 m2 ajuste-mobile">';
                 echo '<div class="img-best">';
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal4']);
@@ -142,7 +142,7 @@
             }
 
             if($id == '5'){
-                echo '<div class="col s12 m2">';
+                echo '<div class="col s12 m2 ajuste-mobile">';
                 echo '<div class="img-best">';
                 if (has_post_thumbnail()) {
                     the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal5']);
@@ -196,7 +196,7 @@
         $frameDow = '"></iframe>';
 
         if($id == '6'){
-            echo '<div class="col s12 m2">';
+            echo '<div class="col s12 m2 ajuste-mobile">';
             echo '<div class="img-best">';
             if (has_post_thumbnail()) {
                 the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal6']);
@@ -223,7 +223,7 @@
         }
 
         if($id == '7'){
-            echo '<div class="col s12 m2">';
+            echo '<div class="col s12 m2 ajuste-mobile">';
             echo '<div class="img-best">';
             if (has_post_thumbnail()) {
                 the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal7']);
@@ -250,7 +250,7 @@
         }
 
         if($id == '8'){
-            echo '<div class="col s12 m2">';
+            echo '<div class="col s12 m2 ajuste-mobile">';
             echo '<div class="img-best">';
             if (has_post_thumbnail()) {
                 the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal8']);
@@ -277,7 +277,7 @@
         }
 
         if($id == '9'){
-            echo '<div class="col s12 m2">';
+            echo '<div class="col s12 m2 ajuste-mobile">';
             echo '<div class="img-best">';
             if (has_post_thumbnail()) {
                 the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal9']);
@@ -304,7 +304,7 @@
         }
 
         if($id == '10'){
-            echo '<div class="col s12 m2">';
+            echo '<div class="col s12 m2 ajuste-mobile">';
             echo '<div class="img-best">';
             if (has_post_thumbnail()) {
                 the_post_thumbnail('large', ['class' => 'modal-trigger', 'href' => '#modal10']);
