@@ -17,7 +17,7 @@
         <?php
             $query = new WP_Query( array(
                 'posts_per_page' => 3,
-                'category_name' => 'drops-da-plus',
+                'category_name' => 'drops-da-plus-fm',
                 'order' => 'DESC',
                 'orderBy' => 'ID'
             ));
