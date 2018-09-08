@@ -45,7 +45,7 @@
                         <a href="<?php echo home_url('/');?>quem-somos">Quem Somos</a>
                     </li>
                     <li class="<?php if (is_category('drops-da-plus')) echo 'active-menu'; ?>">
-                        <a href="<?php echo home_url('/');?>categoria/drops-da-plus">Drops da Plus</a>
+                        <a href="<?php echo home_url('/');?>categoria/drops-da-plus-fm">Drops da Plus</a>
                     </li>
                     <li class="<?php if (is_page('programacao')) echo 'active-menu'; ?>">
                         <a href="<?php echo home_url('/');?>programacao">Programação</a>
@@ -83,7 +83,7 @@
                 </li>
                 <li><a href="<?php echo home_url('/');?>"><i class="material-icons">home</i> Home</a></li>
                 <li><a href="<?php echo home_url('/');?>quem-somos"><i class="material-icons">music_video</i> Quem Somos</a></li>
-                <li><a href="<?php echo home_url('/');?>categoria/drops-da-plus"><i class="material-icons">textsms</i> Drops da Plus</a></li>
+                <li><a href="<?php echo home_url('/');?>categoria/drops-da-plus-fm"><i class="material-icons">textsms</i> Drops da Plus</a></li>
                 <li><a href="<?php echo home_url('/');?>programacao"><i class="material-icons">queue_music</i> Programação</a></li>
                 <li><a href="<?php echo home_url('/');?>categoria/promocoes"><i class="material-icons">card_giftcard</i> Promoções</a></li>
                 <li><a href="<?php echo home_url('/');?>contato"><i class="material-icons">settings_cell</i> Contato</a></li>
