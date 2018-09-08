@@ -103,211 +103,460 @@
         </div>
     </li>
     </br>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/rede.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Rede
-                    </div>
-                    <div class="frequency">
-                        Plus
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
-                    </div>
-                </div>
+
+    <div class="hide-on-med-and-down">
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/rede.png"/>
             </div>
-            <div class="line-bottom"></div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Rede
+                        </div>
+                        <div class="frequency">
+                            Plus
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/home" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/aracati.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Aracati
+                        </div>
+                        <div class="frequency">
+                            98.1
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/aracati" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/cariri.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Cariri
+                        </div>
+                        <div class="frequency">
+                            100.5
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/cariri" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/crateus.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Crateús
+                        </div>
+                        <div class="frequency">
+                            93.3
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/crateus" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/iguatu.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Iguatu/Cariús
+                        </div>
+                        <div class="frequency">
+                            91.5
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/iguatu" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/paraipaba.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Paraipaba
+                        </div>
+                        <div class="frequency">
+                            88.7
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/paraipaba" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/redencao.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Redenção
+                        </div>
+                        <div class="frequency">
+                            98.7
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/redencao" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/santa_quiteria.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Santa Quitéria
+                        </div>
+                        <div class="frequency">
+                            106.5
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/santaq" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/sobral.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Sobral
+                        </div>
+                        <div class="frequency">
+                            105.1
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/#/sobral" onclick="javascript:popupwindow(this.href,'','300','480');return false;" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/aracati.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Aracati
-                    </div>
-                    <div class="frequency">
-                        98.1
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
-                    </div>
-                </div>
+
+    <div class="hide-on-med-and-up">
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/rede.png"/>
             </div>
-            <div class="line-bottom"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/cariri.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Cariri
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Rede
+                        </div>
+                        <div class="frequency">
+                            Plus
+                        </div>
                     </div>
-                    <div class="frequency">
-                        100.5
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/home" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class="line-bottom"></div>
             </div>
-            <div class="line-bottom"></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/crateus.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Crateús
-                    </div>
-                    <div class="frequency">
-                        93.3
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/aracati.png"/>
             </div>
-            <div class="line-bottom"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/iguatu.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Iguatu/Cariús
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Aracati
+                        </div>
+                        <div class="frequency">
+                            98.1
+                        </div>
                     </div>
-                    <div class="frequency">
-                        91.5
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/aracati" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class="line-bottom"></div>
             </div>
-            <div class="line-bottom"></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/paraipaba.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Paraipaba
-                    </div>
-                    <div class="frequency">
-                        88.7
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/cariri.png"/>
             </div>
-            <div class="line-bottom"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/redencao.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Redenção
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Cariri
+                        </div>
+                        <div class="frequency">
+                            100.5
+                        </div>
                     </div>
-                    <div class="frequency">
-                        98.7
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/cariri" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class="line-bottom"></div>
             </div>
-            <div class="line-bottom"></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/santa_quiteria.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Santa Quitéria
-                    </div>
-                    <div class="frequency">
-                        106.5
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/crateus.png"/>
             </div>
-            <div class="line-bottom"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s3">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/sobral.png"/>
-        </div>
-        <div class="col s9">
-            <div class="row">
-                <div class="col s8">
-                    <div class="state">
-                        Sobral
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Crateús
+                        </div>
+                        <div class="frequency">
+                            93.3
+                        </div>
                     </div>
-                    <div class="frequency">
-                        105.1
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div class="ouvir">
-                        Ouvir
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/crateus" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class="line-bottom"></div>
             </div>
-            <div class="line-bottom"></div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/iguatu.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Iguatu/Cariús
+                        </div>
+                        <div class="frequency">
+                            91.5
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/iguatu" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/paraipaba.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Paraipaba
+                        </div>
+                        <div class="frequency">
+                            88.7
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/paraipaba" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/redencao.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Redenção
+                        </div>
+                        <div class="frequency">
+                            98.7
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/redencao" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/santa_quiteria.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Santa Quitéria
+                        </div>
+                        <div class="frequency">
+                            106.5
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/santaq" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s3">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/states/sobral.png"/>
+            </div>
+            <div class="col s9">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="state">
+                            Sobral
+                        </div>
+                        <div class="frequency">
+                            105.1
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="ouvir">
+                            <a href="http://plusfm.com.br/audio/mobile/#/sobral" target="_blank" title="Ao Vivo">
+                                Ouvir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
         </div>
     </div>
 </ul>

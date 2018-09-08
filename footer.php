@@ -67,6 +67,14 @@
 <!-- LightWidget WIDGET -->
 <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 
+<script type="text/javascript">
+    function popupwindow(url, title, w, h) {
+        var left = (screen.width/2)-(w/8);
+        var top = (screen.height/2)-(h/1);
+        return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+    }
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

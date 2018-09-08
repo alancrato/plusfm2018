@@ -4,11 +4,27 @@
 
 <div class="container">
     <div class="row">
-        <div class="pub-desktop hide-on-small-only">
-            PUBLICIDADE
+        <div class="center hide-on-small-only">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Anúncio Topo 02 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-9443599461482101"
+                 data-ad-slot="5320016866"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
-        <div class="pub-mobile hide-on-med-and-up">
-            PUBLICIDADE
+        <div class="center hide-on-med-and-up">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Anúncio Mas Destaques Right -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:250px;height:250px"
+                 data-ad-client="ca-pub-9443599461482101"
+                 data-ad-slot="5530168010"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
     </div>
 </div>
@@ -159,8 +175,16 @@
                 </div>
             </div>
             <div class="col s12 m4">
-                <div class="pub-desktop2">
-                    PUBLICIDADE
+                <div class="center">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Anúncio Mas Destaques Right -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:250px;height:250px"
+                         data-ad-client="ca-pub-9443599461482101"
+                         data-ad-slot="5530168010"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </div>
             </div>
         </div>
@@ -237,8 +261,16 @@
             </div>
 
             <div class="col s12 m4">
-                <div class="pub-desktop2">
-                    PUBLICIDADE
+                <div class="center">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Anúncio Mas Destaques Right -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:250px;height:250px"
+                         data-ad-client="ca-pub-9443599461482101"
+                         data-ad-slot="5530168010"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </div>
             </div>
         </div>
